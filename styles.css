@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(237, 235, 236);
+  background-color: rgb(236, 236, 236);
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -22,24 +22,24 @@ main {
 .about {
   padding: 20px;
   background-color: white;
-  height: 200px;
+  height: 180px;
   width: 60%;
-  box-shadow: 2px black;
-  border-radius: 9px;
-  margin-top: 30px;
+  box-shadow: 3px 4px 4px 1px rgb(148, 146, 148);
+  border-radius: 300px;
+  margin-top: 50px;
 }
 
 .page-title {
   font-family: "Cormorant", serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .about-text {
   width: 50%;
   position: absolute;
   left: 25%;
-  line-height: 2;
+  line-height: 1.7;
   font-size: 20px;
   font-family: "Cormorant", serif;
   font-weight: 500;
@@ -49,7 +49,7 @@ main {
   background-image: url("flowers.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 400px;
   width: 100vw;
   margin-top: 70px;
   text-align: center;
@@ -75,9 +75,9 @@ main {
   align-items: center;
   text-align: center;
 
-  background-color: black;
-  color: white;
-  padding: 15px 70px;
+  background-color: rgb(51, 51, 55);
+  color: rgb(40, 40, 40);
+  padding: 15px 90px;
 
   /* Debug border */
   /* border: solid red; */
@@ -96,7 +96,8 @@ main {
   font-weight: bold;
   margin: 0 12px;
   text-decoration: none;
-  letter-spacing: 2px;
+
+  font-family: "Cormorant", serif;
 }
 
 /* CSS for page footer */
