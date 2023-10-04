@@ -2,31 +2,39 @@
 <html>
   <head>
     <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav>
-        <h1 class="logo">
-            <a href="index.html">personal website</a>
-        </h1>
-        <ul class="nav-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav class="navbar">
+      <h1 class="logo">
+        <a href="index.html">personal website</a>
+      </h1>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
     <main>
-        <form id="contact-form">
-            <input type="text" id="name" name="name" placeholder="Name" required/>
-            <input type="email" id="email" name="email" placeholder="Email" required />
-            <textarea
-                id="comments"
-                name="comments"
-                placeholder="Comments"
-                required></textarea>
-            <input type="submit" value="Submit" />
-        </form>
+      <form id="contact-form">
+        <input type="text" id="name" name="name" placeholder="Name" required />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+        <textarea
+          id="comments"
+          name="comments"
+          placeholder="Comments"
+          required
+        ></textarea>
+        <input type="submit" value="Submit" />
+      </form>
     </main>
     <footer>© 2023 Personal Website | All Rights Reserved</footer>
   </body>
