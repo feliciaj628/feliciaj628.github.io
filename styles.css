@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(225, 224, 224);
+  background-color: rgb(227, 225, 228);
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -50,19 +50,20 @@ main {
 }
 
 .page-title {
-  font-family: "Abril Fatface", serif;
+  font-family: "Cookie", cursive;
   letter-spacing: 1.1px;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 100px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .about-image {
-  background-image: url("flowers.png");
+  background-image: url("flowers2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 
-  height: 38vh;
+  height: 37vh;
   width: 100vw;
   margin-top: 70px;
 
@@ -81,7 +82,7 @@ main {
   height: 200px;
   position: relative;
   float: left;
-  margin: 40px 30px 40px 40px;
+  margin: 55px 30px 40px 40px;
 
   box-shadow: 0 0 8px 4px rgba(26, 26, 26, 0.7);
   border-radius: 20vh;
@@ -177,6 +178,8 @@ main {
   font-family: "Cormorant", serif;
   font-weight: 500;
   font-size: 16px;
+
+  box-shadow: 10px 10px 18px 0px rgba(25, 25, 25, 0.6);
 }
 
 .section-title,
