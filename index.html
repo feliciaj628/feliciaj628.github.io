@@ -3,9 +3,12 @@
   <head>
     <title>Home</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav class="navbar">
@@ -24,16 +27,30 @@
       <h1 class="page-title">Introduction</h1>
     </div>
     <main>
-      <div class="about">  
-        <p class="about-text">My name is Felicia Jones, and I'm a third-year Business
-        Administration student concentrating in Entrepreneurship. I'm really
-        passionate about growing businesses, exploring new business ideas,
-        and motivating others to follow their dreams! I am also very
-        interested in creating and designing websites, with the goal of
-        becoming a web developer in the future.</p>
-        <button class="portfolio-button">View My Portfolio!</button>
+      <div class="about">
+        <div id="me"></div>
+        <div class="about-description">
+        <p class="about-text">
+          My name is Felicia Jones, and I'm a third-year Business Administration
+          student concentrating in Entrepreneurship. I'm really passionate about
+          growing businesses, exploring new business ideas, and motivating
+          others to follow their dreams! I am also very interested in creating
+          and designing websites, with the goal of becoming a web developer in
+          the future.
+        </p>
+        <button class="portfolio-button" onclick="goToPortfolio()">
+          View My Portfolio!
+        </button>
+    </div>
       </div>
     </main>
-    <foote class="footer">© 2023 Personal Website | All Rights Reserved</footer>
+    <footer class="footer">
+      © 2023 Personal Website | All Rights Reserved
+    </footer>
   </body>
 </html>
+<script>
+  function goToPortfolio() {
+    window.location.href = "./portfolio.html";
+  }
+</script>

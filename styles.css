@@ -13,31 +13,24 @@ body {
 main {
   padding: 0 20px 40px 20px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 .about {
-  padding: 15px 15px;
+  padding: 18px 18px;
   background-color: white;
   min-height: 220px;
   max-width: 60%;
   box-shadow: 3px 4px 4px 1px rgb(148, 146, 148);
-  border-radius: 12vw;
+  border-radius: 1vw;
   margin-top: 25px;
   left: 25%;
   line-height: 1.7;
   margin-bottom: 0px;
 
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 20px;
+  font-size: 19px;
   font-family: "Cormorant", serif;
   font-weight: 500;
 }
@@ -45,7 +38,15 @@ main {
 .about-text {
   max-width: 90%;
   margin: 25px;
+  margin-right: 40px;
   margin-bottom: 10px;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 .page-title {
@@ -59,14 +60,32 @@ main {
   background-image: url("flowers.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 51vh;
+  background-position: top;
+
+  height: 40vh;
   width: 100vw;
   margin-top: 70px;
+
   text-align: center;
   justify-content: center;
   align-items: center;
   display: flex;
   color: white;
+  z-index: 100;
+}
+
+#me {
+  background-image: url("me.png");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  float: left;
+  margin: 40px 30px 40px 40px;
+
+  box-shadow: 0 0 8px 4px rgba(26, 26, 26, 0.7);
+  border-radius: 20vh;
+  background-position: center;
 }
 
 .portfolio-button {
@@ -151,7 +170,7 @@ main {
   margin-top: 120px;
   text-align: left;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 30px 60px;
   word-wrap: normal;
   font-family: "Cormorant", serif;
@@ -161,11 +180,15 @@ main {
 
 .section-title,
 .entry-title {
-  margin-bottom: -10px;
+  margin-bottom: -15px;
 }
 
+.entry-info {
+  margin-bottom: -10px;
+}
 .my-info {
   text-align: center;
   font-family: "Cormorant", serif;
   margin-top: 0px;
+  letter-spacing: 0.5px;
 }
