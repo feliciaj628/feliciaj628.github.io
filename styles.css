@@ -686,7 +686,7 @@
 
   #submit {
     height: 38px;
-    width: 54vw;
+    width: 55vw;
     font-family: "Cormorant", serif;
     font-size: 20px;
     font-weight: 600;
@@ -750,7 +750,7 @@
   }
 
   #white-box {
-    margin-top: 130px;
+    margin-top: 80px;
     padding: 40px 50px;
     max-width: 75vw;
     margin-bottom: 40px;
