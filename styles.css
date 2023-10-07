@@ -742,30 +742,30 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 155px;
+    margin-top: 115px;
   }
 
   #my-website,
   #my-website2 {
-    height: 250px;
+    height: 150px;
     width: auto;
     box-shadow: 3px 3px 3px rgb(100, 94, 104);
-    margin-right: 40px;
+    margin-right: 20px;
   }
 
   #my-website:hover,
   #my-website2:hover {
-    height: 250px;
+    height: 150px;
     width: auto;
     box-shadow: 1px 1px 3px rgb(100, 94, 104);
-    margin-right: 40px;
+    margin-right: 20px;
     transform: translate(2px, 2px);
   }
 
   .project-details {
     font-family: "Cormorant", serif;
     align-items: left;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .project-description {
@@ -774,7 +774,7 @@
 
   #white-box {
     margin-top: 130px;
-    padding: 40px 120px;
+    padding: 40px 50px;
     max-width: 80vw;
     margin-bottom: 40px;
   }
