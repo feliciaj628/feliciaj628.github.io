@@ -278,23 +278,10 @@
 
   .date {
     display: absolute;
-    right: 0px;
+    right: 0;
     margin-right: 0px;
-    float: left;
+    float: right;
     margin-bottom: 5px;
-  }
-
-  .skills {
-    display: absolute;
-    right: 0px;
-    margin-right: 45%;
-    float: right;
-  }
-
-  .skills-list {
-    margin-top: 0px;
-    margin-right: 32%;
-    float: right;
   }
 
   #name,
@@ -559,9 +546,9 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 0px;
+    margin-right: 50%;
     list-style: none;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .navbar a {
@@ -635,7 +622,7 @@
   .contact {
     position: absolute;
     padding-top: 80px;
-    left: 15vw;
+    left: 10vw;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -674,22 +661,9 @@
 
   .date {
     display: absolute;
-    right: 0px;
-    margin-right: 0px;
-    float: right;
-  }
-
-  .skills {
-    display: absolute;
-    right: 0px;
-    margin-right: 45%;
-    float: right;
-  }
-
-  .skills-list {
-    margin-top: 0px;
-    margin-right: 32%;
-    float: right;
+    left: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
   }
 
   #name,
@@ -701,18 +675,18 @@
   #name,
   #email {
     height: 3vh;
-    width: 45vw;
+    width: 50vw;
   }
 
   #comments {
     height: 22vh;
-    width: 49vw;
+    width: 53vw;
     margin-bottom: 20px;
   }
 
   #submit {
     height: 38px;
-    width: 49vw;
+    width: 54vw;
     font-family: "Cormorant", serif;
     font-size: 20px;
     font-weight: 600;
