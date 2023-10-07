@@ -421,6 +421,9 @@
     font-size: 60px;
   }
 
+  #personal-website {
+    font-size: 0px;
+  }
   .white-box {
     background-color: white;
     box-shadow: 3px 4px 6px 1px rgb(148, 146, 148);
@@ -459,7 +462,7 @@
   }
 
   .page-title {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-shadow: 2px 2px 2px black;
   }
 
