@@ -418,7 +418,7 @@
   .heading {
     font-family: "Cookie", cursive;
     font-weight: 700;
-    font-size: 100px;
+    font-size: 60px;
   }
 
   .white-box {
@@ -437,14 +437,15 @@
     line-height: 1.7;
     margin-bottom: 0px;
 
-    font-size: 19.5px;
+    font-size: 10px;
     font-family: "Cormorant", serif;
     font-weight: 500;
   }
 
   .about-text {
     max-width: 90%;
-    margin: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
     margin-right: 40px;
     margin-bottom: 10px;
   }
@@ -483,14 +484,13 @@
   #me {
     background-image: url("me.png");
     background-size: cover;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    float: left;
-    margin: 35px 30px 40px 40px;
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    margin-left: 24vw;
 
     box-shadow: 0 0 9px 2px rgba(26, 26, 26, 0.9);
-    border-radius: 20vh;
+    border-radius: 25vh;
     background-position: center;
   }
 
@@ -501,9 +501,9 @@
     align-items: center;
     text-align: center;
 
-    padding: 9px 13px;
+    padding: 4px 8px;
     font-family: "Cormorant", serif;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 700;
 
     background-color: rgb(227, 228, 227);
@@ -540,7 +540,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
 
     background-color: rgb(56, 53, 56);
     color: rgb(81, 71, 82);
@@ -557,7 +557,7 @@
     position: relative;
     right: 0px;
     list-style: none;
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .navbar a {
