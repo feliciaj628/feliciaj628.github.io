@@ -41,7 +41,7 @@ h4 {
   min-height: 220px;
   max-width: 70%;
 
-  margin-top: 25px;
+  margin-top: 30px;
   left: 25%;
   line-height: 1.7;
   margin-bottom: 0px;
@@ -103,20 +103,34 @@ h4 {
 }
 
 .portfolio-button {
-  margin-right: 12px;
+  margin-right: 20px;
   display: flex;
   position: relative;
   align-items: center;
   text-align: center;
-  border-radius: 7px;
-  padding: 8px 10px;
+
+  padding: 9px 13px;
   font-family: "Cormorant", serif;
-  font-size: 20px;
-  border-color: rgb(158, 158, 158);
-  border-width: 2px;
-  margin-top: 0px;
+  font-size: 18px;
+  font-weight: 700;
+
+  background-color: rgb(227, 228, 227);
+  color: rgb(85, 88, 85);
+
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 0px;
+
+  margin-top: 2px;
   margin-bottom: 15px;
+
   cursor: pointer;
+  box-shadow: 2px 2px 0px 1px rgb(121, 125, 121);
+}
+
+.portfolio-button:hover {
+  box-shadow: 1px 1px 0 0 rgb(121, 125, 121);
+  transform: translate(2px, 2px);
 }
 
 /* CSS for navigation bar */
@@ -139,7 +153,7 @@ h4 {
   background-color: rgb(56, 53, 56);
   color: rgb(81, 71, 82);
   padding: 10px 100px;
-  box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
 
   /* Debug border */
   /* border: solid red; */
@@ -195,7 +209,7 @@ h4 {
   font-weight: 500;
   font-size: 16px;
 
-  box-shadow: 9px 9px 20px 0px rgba(25, 25, 25, 0.7);
+  box-shadow: 3px 3px 8px 3px rgba(123, 127, 125, 0.6);
 }
 
 .section-title,
@@ -203,8 +217,14 @@ h4 {
   margin-bottom: -15px;
 }
 
+.entry-title,
+.entry-info {
+  font-weight: 700;
+}
+
 .entry-info {
   margin-bottom: -10px;
+  margin-left: 15px;
 }
 .my-info {
   text-align: center;
@@ -255,6 +275,26 @@ h4 {
   color: rgb(189, 0, 0);
 }
 
+.date {
+  display: absolute;
+  right: 0px;
+  margin-right: 0px;
+  float: right;
+}
+
+.skills {
+  display: absolute;
+  right: 0px;
+  margin-right: 45%;
+  float: right;
+}
+
+.skills-list {
+  margin-top: 0px;
+  margin-right: 32%;
+  float: right;
+}
+
 #name,
 #email,
 #submit {
@@ -281,6 +321,13 @@ h4 {
   cursor: pointer;
   color: white;
   background-color: rgb(86, 80, 80);
+  box-shadow: 2px 2px 0 1px rgb(38, 38, 38);
+  border-width: 0px;
+}
+
+#submit:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 0px rgb(38, 38, 38);
 }
 
 /* CSS for portfolio.html */
@@ -311,10 +358,23 @@ h4 {
   margin-right: 40px;
 }
 
+#my-website:hover,
+#my-website2:hover {
+  height: 250px;
+  width: auto;
+  box-shadow: 1px 1px 3px rgb(100, 94, 104);
+  margin-right: 40px;
+  transform: translate(2px, 2px);
+}
+
 .project-details {
   font-family: "Cormorant", serif;
   align-items: left;
   margin-bottom: 40px;
+}
+
+.project-description {
+  margin: 0 0 5px 0;
 }
 
 #white-box {
