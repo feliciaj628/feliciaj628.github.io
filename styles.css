@@ -515,6 +515,7 @@
     border-radius: 7px;
     border-width: 0px;
 
+    margin-left: 1vw;
     margin-top: 2px;
     margin-bottom: 15px;
 
@@ -703,13 +704,14 @@
   }
 
   #comments {
-    height: 20vh;
-    width: 45vw;
+    height: 22vh;
+    width: 49vw;
     margin-bottom: 20px;
   }
 
   #submit {
     height: 38px;
+    width: 49vw;
     font-family: "Cormorant", serif;
     font-size: 20px;
     font-weight: 600;
