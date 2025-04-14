@@ -74,7 +74,6 @@ function Portfolio() {
             {active === "improvements" && (
               <>
                 <div className="flex flex-col md:flex-row items-center md:flex-wrap mt-[50px] gap-10">
-                  <div className="bg-ponte hover:bg-pontebefore bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
                   <a href="https://sustainablelandinitiative.netlify.app/">
                     <div className="bg-sli hover:bg-slibefore bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
                   </a>
@@ -83,6 +82,7 @@ function Portfolio() {
                   </a>
                   <div className="bg-harvestlyhome hover:bg-harvestlyhomebefore bg-cover bg-top h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
                   <div className="bg-reviews hover:bg-reviewsbefore bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
+                  <div className="bg-ponte hover:bg-pontebefore bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
                 </div>
               </>
             )}
