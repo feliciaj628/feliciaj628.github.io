@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8e0257af.css",
+    "main.js": "/portfolio/static/js/main.1583e654.js",
+    "static/js/453.aac68abc.chunk.js": "/portfolio/static/js/453.aac68abc.chunk.js",
+    "static/media/sli-login.png": "/portfolio/static/media/sli-login.f3e4a9b4f82d25435c80.png",
+    "static/media/sli-login-before.png": "/portfolio/static/media/sli-login-before.9e3c51193f8b499ea73f.png",
+    "static/media/harvestly-home-before.png": "/portfolio/static/media/harvestly-home-before.2127f50ace66548284ae.png",
+    "static/media/sli.png": "/portfolio/static/media/sli.016209c81b70d022b08b.png",
+    "static/media/sli-before.png": "/portfolio/static/media/sli-before.0a424fc04c6797657097.png",
+    "static/media/me.png": "/portfolio/static/media/me.b24616a981f72d6cdfc5.png",
+    "static/media/harvestly-home.png": "/portfolio/static/media/harvestly-home.af33e06eb9d5a3802f76.png",
+    "static/media/user-list.png": "/portfolio/static/media/user-list.008547e1501489ec06cc.png",
+    "static/media/tarot.png": "/portfolio/static/media/tarot.015aeb451d0d41dd6bf8.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.75c06653072c2a612085.png",
+    "static/media/harvestly-reviews-after.png": "/portfolio/static/media/harvestly-reviews-after.277c2280d474f2bf67d9.png",
+    "static/media/ponte.png": "/portfolio/static/media/ponte.97749703a4cbe1f05688.png",
+    "static/media/harvestly-reviews-before.png": "/portfolio/static/media/harvestly-reviews-before.4446bf5156a97ec1ec1a.png",
+    "static/media/ponte-before.png": "/portfolio/static/media/ponte-before.612b27507009d948d90f.png",
+    "static/media/drops.png": "/portfolio/static/media/drops.ea1c7b39e49ddea0d934.png",
+    "static/media/webimage.png": "/portfolio/static/media/webimage.5a09dfdb13cbe3986f9a.png",
+    "static/media/bluetransition1.png": "/portfolio/static/media/bluetransition1.3b294827af15754fe8e6.png",
+    "static/media/bluetransition2.png": "/portfolio/static/media/bluetransition2.f4580fcf0f4535866696.png",
+    "index.html": "/portfolio/index.html",
+    "main.8e0257af.css.map": "/portfolio/static/css/main.8e0257af.css.map",
+    "main.1583e654.js.map": "/portfolio/static/js/main.1583e654.js.map",
+    "453.aac68abc.chunk.js.map": "/portfolio/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e0257af.css",
+    "static/js/main.1583e654.js"
+  ]
+}
