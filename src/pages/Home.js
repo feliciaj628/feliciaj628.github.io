@@ -1,12 +1,12 @@
 import React from "react";
-import Banner from "../components/Home/Banner";
+import Banner from "../components/Portfolio/Home/Banner";
 import Transition1 from "../layout/transitions/Transition1";
 import Transition2 from "../layout/transitions/Transition2";
 import Transition3 from "../layout/transitions/Transition3";
-import About from "../components/Home/About";
-import Skills from "../components/Home/Skills";
-import Portfolio from "../components/Home/Portfolio";
-import Contact from "../components/Home/Contact";
+import About from "../components/Portfolio/Home/About";
+import Skills from "../components/Portfolio/Home/Skills";
+import Portfolio from "../components/Portfolio/Home/Portfolio";
+import Contact from "../components/Portfolio/Home/Contact";
 
 function Home() {
   return (
