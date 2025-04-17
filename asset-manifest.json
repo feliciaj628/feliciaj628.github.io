@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.805286cd.css",
-    "main.js": "/static/js/main.f68c0da9.js",
+    "main.css": "/static/css/main.9c2e7e5e.css",
+    "main.js": "/static/js/main.d065ffd6.js",
     "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
     "static/media/sli-login.png": "/static/media/sli-login.f3e4a9b4f82d25435c80.png",
     "static/media/sli-login-before.png": "/static/media/sli-login-before.9e3c51193f8b499ea73f.png",
@@ -18,16 +18,19 @@
     "static/media/harvestly-reviews-before.png": "/static/media/harvestly-reviews-before.4446bf5156a97ec1ec1a.png",
     "static/media/ponte-before.png": "/static/media/ponte-before.612b27507009d948d90f.png",
     "static/media/drops.png": "/static/media/drops.ea1c7b39e49ddea0d934.png",
+    "static/media/linkedin-icon.png": "/static/media/linkedin-icon.3b2d52e657ce8dbb2792.png",
     "static/media/webimage.png": "/static/media/webimage.5a09dfdb13cbe3986f9a.png",
+    "static/media/gmail-logo.png": "/static/media/gmail-logo.58263dab1f16c482230c.png",
+    "static/media/phone-icon.png": "/static/media/phone-icon.71d5638eceed8784c306.png",
     "static/media/bluetransition1.png": "/static/media/bluetransition1.3b294827af15754fe8e6.png",
     "static/media/bluetransition2.png": "/static/media/bluetransition2.f4580fcf0f4535866696.png",
     "index.html": "/index.html",
-    "main.805286cd.css.map": "/static/css/main.805286cd.css.map",
-    "main.f68c0da9.js.map": "/static/js/main.f68c0da9.js.map",
+    "main.9c2e7e5e.css.map": "/static/css/main.9c2e7e5e.css.map",
+    "main.d065ffd6.js.map": "/static/js/main.d065ffd6.js.map",
     "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.805286cd.css",
-    "static/js/main.f68c0da9.js"
+    "static/css/main.9c2e7e5e.css",
+    "static/js/main.d065ffd6.js"
   ]
 }
