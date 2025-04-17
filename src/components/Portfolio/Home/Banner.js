@@ -17,7 +17,7 @@ function Banner() {
 
             <div className="animate-slide-in lg:ml-5 mr-5">
               {/* <h1 className="font-bold text-4xl md:text-5xl text-gray-800 max-w-[65vw] md:max-w-[55vw] "> */}
-              <h1 className="serif-500 text-center sm:text-left text-[30px] md:text-4xl lg:text-[56px] leading-[1] text-gray-800">
+              <h1 className="serif-500 text-left text-[31px] md:text-4xl lg:text-[56px] leading-[1] text-gray-800">
                 Frontend Web Developer and Designer
               </h1>
               <ul className="list-disc md:text-left font-semibold leading-tight md:leading-normal text-gray-700 pt-[8px] list-outside px-5 md:pl-5 text-lg lg:text-[1.3rem] md:max-w-[55vw] lg:max-w-[45vw]">
@@ -25,7 +25,7 @@ function Banner() {
                   Experienced in HTML, CSS, JavaScript, and ReactJS
                 </li>
                 <li className="pt-3">
-                  Thorough understanding of UX/UI principles and implementation
+                  Strong understanding of UX/UI principles and implementation
                 </li>
                 <li className="pt-3">
                   Specializes in startups and small businesses
@@ -34,7 +34,7 @@ function Banner() {
                   Prioritizes your brand identity and vision for the website
                 </li>
               </ul>
-              <div className="flex gap-3 justify-center sm:justify-start text-md md:text-xl leading-tight md:leading-normal mb-5">
+              <div className="flex gap-3  sm:justify-start text-md md:text-xl leading-tight md:leading-normal mb-5">
                 <a href="#portfolio">
                   <button className="bg-primary-500 hover:bg-primary-600 text-white h-auto w-auto py-2 px-2 md:py-3 md:px-5 font-bold rounded-lg mt-5 border-1 border-[#DDE7DF]">
                     View my Portfolio

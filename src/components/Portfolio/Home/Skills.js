@@ -31,8 +31,8 @@ function Skills() {
       <Container className="py-[30px] h-auto">
         <div className="px-5">
           <div className="bg-primary-100 shadow-lg rounded-xl p-2">
-            <div className="bg-gradient-to-r from-primary-300 to-primary-100 py-8 px-5 md:px-12 shadow-inset-lg rounded-xl">
-              <h1 className="text-3xl md:text-[40px] font-bold text-primary-800 text-center">
+            <div className="bg-gradient-to-r from-primary-300 to-primary-100 py-11 px-5 md:px-14 shadow-inset-lg rounded-xl">
+              <h1 className="text-3xl md:text-5xl font-bold text-primary-800 text-center">
                 My Skillset
               </h1>
 
@@ -47,17 +47,23 @@ function Skills() {
               ))}
             </div> */}
 
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-5 text-center justify-between w-[100%] mt-5 md:mt-8">
-                {["HTML", "CSS", "JavaScript", "ReactJS", "Python"].map(
-                  (skill) => (
-                    <div
-                      key={skill}
-                      className="bg-gradient-to-br from-primary-700 to-primary-500 py-5 md:py-10 rounded-xl text-lg md:text-2xl text-primary-100 font-semibold shadow-custom-light text-shadow hover:scale-105 transform transition-transform duration-300"
-                    >
-                      {skill}
-                    </div>
-                  )
-                )}
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 text-center justify-between w-[100%] mt-5 md:mt-8">
+                {[
+                  "HTML",
+                  "CSS",
+                  "JavaScript",
+                  "ReactJS",
+                  "TailwindCSS",
+                  "WordPress",
+                  "Figma",
+                ].map((skill) => (
+                  <div
+                    key={skill}
+                    className="bg-gradient-to-br from-primary-700 to-primary-500 py-5 md:py-10 rounded-xl text-lg md:text-2xl text-primary-100 font-semibold shadow-custom-light text-shadow hover:scale-105 transform transition-transform duration-300"
+                  >
+                    {skill}
+                  </div>
+                ))}
               </div>
             </div>
           </div>

@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        "inset-lg": "inset 0px 4px 5px rgba(0, 0, 0, 0.2)",
+        "inset-lg": "inset -2px -2px 2px rgba(55, 62, 85, 0.4)",
         "custom-light": "2px 3px 0px rgba(207, 211, 224, 1)",
+        "light-button": "2px 2px 0px rgba(255, 255, 255, 0.4)",
       },
       backgroundImage: {
         reviewsbefore: "url('assets/harvestly-reviews-before.png')",
@@ -28,6 +29,9 @@ module.exports = {
         transition2: "url('assets/bluetransition2.png')",
         circle: "url('assets/circle.png')",
         webimage: "url('assets/webimage.png')",
+        gmaillogo: "url('assets/gmail-logo.png')",
+        phoneicon: "url('assets/phone-icon.png')",
+        linkedinicon: "url('assets/linkedin-icon.png')",
       },
       animation: {
         "slide-in": "slideIn 0.5s ease-out forwards",

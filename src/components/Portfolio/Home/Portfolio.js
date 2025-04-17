@@ -11,7 +11,7 @@ function Portfolio() {
     <div className="bg-[#64719A] mt-[-5px]" id="portfolio">
       <Container>
         {/* <hr className="mb-5" /> */}
-        <div className="lg:pt-[80px] pt-[40px] md:pb-[80px] h-auto px-5 flex flex-col items-center md:items-start">
+        <div className="lg:pt-[90px] pt-[40px] md:pb-[80px] h-auto px-5 flex flex-col items-center md:items-start">
           <h1 className="font-bold text-3xl md:text-4xl md:text-5xl text-[#eff5ee]">
             Portfolio
           </h1>
@@ -19,26 +19,27 @@ function Portfolio() {
             <button
               onClick={() => handleSectionChange("scratch")}
               className={`${
-                active === "scratch"
-                  ? "bg-primary-100 text-gray-900"
-                  : "bg-gray-100 text-gray-800"
-              } px-4 py-3 rounded-md font-bold text-gray-800 leading-tight`}
+                active === "improvements"
+                  ? "bg-primary-100 text-gray-900 "
+                  : "bg-primary-50 text-gray-800 shadow-light-button"
+              } px-6 py-3 rounded-md font-bold text-gray-800 leading-tight`}
             >
               Made from Scratch
             </button>
             <button
               onClick={() => handleSectionChange("improvements")}
               className={`${
-                active === "improvements"
+                active === "scratch"
                   ? "bg-primary-100 text-gray-900"
-                  : "bg-gray-100 text-gray-800"
-              } px-4 py-3 rounded-md font-bold text-gray-800 leading-tight`}
+                  : "bg-primary-50 text-gray-800 shadow-light-button"
+              } px-6 py-3 rounded-md font-bold text-gray-800 leading-tight`}
             >
               Design Improvements
             </button>
+            <br />
             {active === "improvements" && (
               <div>
-                <div className="flex items-center align-center gap-1">
+                <div className="flex items-center align-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="#FFFFFF"
@@ -54,7 +55,7 @@ function Portfolio() {
                     />
                   </svg>{" "}
                   <p className="text-white font-bold text-lg leading-tight">
-                    Hover to see the before!
+                    Click to see the before!
                   </p>
                 </div>
               </div>
