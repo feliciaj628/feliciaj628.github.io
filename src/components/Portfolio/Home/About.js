@@ -14,15 +14,14 @@ function About() {
           <div className="flex flex-wrap md:flex-nowrap gap-[6vw] mt-4 lg:mt-5">
             <div>
               <p className="text-lg md:text-lg lg:text-2xl font-semibold text-white ">
-                My name is Felicia Jones, and I am a frontend web developer and
-                designer who specializes in startups and growing businesses. I
-                currently study business and entrepreneurship at Cal Poly, which
-                gives me a unique perspective in understanding what customers
-                want and need. I combine UX/UI principles with an understanding
-                of brand archetypes to create websites that draw in customers
-                and induce sales. <br /> <br />
+                Hi! My name is Felicia Jones, and I am a frontend web developer
+                and designer. I currently study business and entrepreneurship at
+                Cal Poly, which gives me a unique perspective in understanding
+                customers' wants and needs. I combine UX/UI principles with an
+                understanding of brand archetypes to create websites that draw
+                in customers and induce sales. <br /> <br />
                 My portfolio includes some websites I have made from scratch as
-                well as existing startups I have worked with to improve their
+                well as startups/nonprofits I have worked with to improve their
                 design and overall user experience.
               </p>
             </div>

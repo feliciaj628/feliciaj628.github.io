@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        "inset-lg": "inset -2px -2px 2px rgba(55, 62, 85, 0.4)",
+        "inset-md": "inset -2px -2px 2px rgba(55, 62, 85, 0.4)",
+        "inset-lg": "inset 2px 2px 6px rgba(55, 62, 85, 0.6)",
         "custom-light": "2px 3px 0px rgba(207, 211, 224, 1)",
         "light-button": "2px 2px 0px rgba(255, 255, 255, 0.4)",
       },
@@ -22,6 +23,7 @@ module.exports = {
         slilogin: "url('assets/sli-login.png')",
         userlist: "url('assets/user-list.png')",
         ponte: "url('assets/ponte.png')",
+        ponteabout: "url('assets/ponte-about.png')",
         me: "url('assets/me.png')",
         drops: "url('assets/drops.png')",
         transition: "url('assets/bluetransition1.png')",

@@ -28,9 +28,6 @@ function Banner() {
                   Strong understanding of UX/UI principles and implementation
                 </li>
                 <li className="pt-3">
-                  Specializes in startups and small businesses
-                </li>
-                <li className="pt-3">
                   Prioritizes your brand identity and vision for the website
                 </li>
               </ul>
