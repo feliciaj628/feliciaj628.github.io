@@ -16,16 +16,7 @@ function Portfolio() {
             Portfolio
           </h1>
           <div className="flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-5 mt-3 md:mt-5">
-            <button
-              onClick={() => handleSectionChange("improvements")}
-              className={`${
-                active === "scratch"
-                  ? "bg-primary-100 text-gray-900"
-                  : "bg-primary-50 text-gray-800 shadow-light-button"
-              } px-6 py-3 rounded-md font-bold text-gray-800 leading-tight`}
-            >
-              Design Improvements
-            </button>
+            
             <button
               onClick={() => handleSectionChange("scratch")}
               className={`${
@@ -34,13 +25,23 @@ function Portfolio() {
                   : "bg-primary-50 text-gray-800 shadow-light-button"
               } px-6 py-3 rounded-md font-bold text-gray-800 leading-tight`}
             >
-              Made from Scratch
+              Section 1
+            </button>
+            <button
+              onClick={() => handleSectionChange("improvements")}
+              className={`${
+                active === "scratch"
+                  ? "bg-primary-100 text-gray-900"
+                  : "bg-primary-50 text-gray-800 shadow-light-button"
+              } px-6 py-3 rounded-md font-bold text-gray-800 leading-tight`}
+            >
+              Section 2
             </button>
 
             <br className="hidden lg:block" />
             {active === "improvements" && (
               <div>
-                <div className="flex items-center align-center">
+                {/* <div className="flex items-center align-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="#64719A"
@@ -58,27 +59,29 @@ function Portfolio() {
                   <p className="text-white font-bold text-lg leading-tight mt-[3px] ml-1">
                     Hover to see the before!
                   </p>
-                </div>
+                </div> */}
               </div>
             )}
           </div>
           <div>
             {active === "scratch" && (
               <div className="flex flex-col sm:flex-row items-center sm:flex-wrap mt-[20px] md:mt-[50px] gap-5 lg:gap-10">
-                <div className="bg-portfolio bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
-                <div className="bg-tarot bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
+                {/* <div className="bg-portfolio bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
+                <div className="bg-tarot bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" /> */}
                 {/* <a href="https://crystalsmagickcorner.com">
                   
                 </a> */}
-                <div className="bg-drops bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
+                {/* <div className="bg-drops bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" /> */}
                 {/* <div className="bg-ponteabout bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" /> */}
                 {/* <div className="bg-userlist bg-cover bg-top h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" /> */}
+                <div className="bg-lss bg-cover bg-cover h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[350px] lg:w-[530px] rounded-lg shadow-xl border border-gray-800" /> 
+
               </div>
             )}
             {active === "improvements" && (
               <>
                 <div className="flex flex-col md:flex-row items-center md:flex-wrap mt-[20px] md:mt-[50px] gap-10">
-                  <a href="https://sustainablelandinitiative.netlify.app/">
+                  {/* <a href="https://sustainablelandinitiative.netlify.app/">
                     <div className="bg-sli hover:bg-slibefore bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
                   </a>
                   <a href="https://sustainablelandinitiative.netlify.app/login">
@@ -86,7 +89,7 @@ function Portfolio() {
                   </a>
                   <div className="bg-harvestlyhome hover:bg-harvestlyhomebefore bg-cover bg-top h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
                   <div className="bg-reviews hover:bg-reviewsbefore bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
-                  <div className="bg-ponte hover:bg-pontebefore bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" />
+                  <div className="bg-ponte hover:bg-pontebefore bg-cover bg-center h-[220px] w-[350px] md:h-[210px] md:w-[350px] lg:h-[320px] lg:w-[530px] rounded-lg shadow-xl" /> */}
                 </div>
               </>
             )}
