@@ -18,9 +18,9 @@ function Banner() {
             <div className="animate-slide-in lg:ml-5 mr-5">
               {/* <h1 className="font-bold text-4xl md:text-5xl text-gray-800 max-w-[65vw] md:max-w-[55vw] "> */}
               <h1 className="serif-500 text-left text-[31px] md:text-4xl lg:text-5xl leading-[1] text-gray-800">
-                Felicia Jones
+                Felicia Jones <br />Aspiring Business Analyst
               </h1>
-              <ul className="list-disc md:text-left font-medium leading-tight md:leading-normal text-gray-700 pt-[8px] list-outside px-5 md:pl-5 text-lg lg:text-[1.3rem] md:max-w-[55vw] lg:max-w-[45vw]">
+              <ul className="list-disc md:text-left font-medium leading-tight md:leading-normal text-gray-700 pt-[5px] list-outside px-5 md:pl-5 text-lg lg:text-[1.3rem] md:max-w-[55vw] lg:max-w-[45vw]">
                 <li className="pt-3">
                   Experienced in Microsoft Excel, SQL, and Power BI
                 </li>
