@@ -23,7 +23,7 @@ function About() {
               </p>
             </div>
             <div>
-              <div className="bg-webimage bg-cover bg-center hidden md:block md:h-[180px] md:w-[180px] lg:h-[31vh] lg:w-[15vw] rounded-xl shadow-xl"></div>
+              <div className="bg-webimage bg-cover bg-center hidden md:block md:h-[180px] md:w-[180px] lg:h-[25vh] lg:w-[15vw] rounded-xl shadow-xl"></div>
             </div>
           </div>
         </div>
