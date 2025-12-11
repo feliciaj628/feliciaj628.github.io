@@ -3,10 +3,10 @@ import { Container } from "@mui/system";
 
 function Contact() {
   return (
-    <div>
-      <Container className="py-12 pt-[10px] lg:pt-[60px] lg:pb-[80px]">
-        <div className="px-5">
-          <h1 className="font-semibold text-4xl text-center md:text-5xl text-primary-800 mt-5 lg:mt-0">
+    <div id="contact" className="bg-primary-500">
+      <Container className="py-12 pt-[10px] lg:pt-[40px] lg:pb-[80px]">
+        <div className="mx-5">
+          <h1 className="font-semibold text-4xl md:text-5xl text-white mt-5 lg:mt-0">
             Contact Information
           </h1>
           <hr className="my-5"></hr>

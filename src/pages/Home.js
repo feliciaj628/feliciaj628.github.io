@@ -3,6 +3,7 @@ import Banner from "../components/Sections/Banner";
 import Transition1 from "../layout/transitions/Transition1";
 import Transition2 from "../layout/transitions/Transition2";
 import Transition3 from "../layout/transitions/Transition3";
+import Transition4 from "../layout/transitions/Transition4";
 import About from "../components/Sections/About";
 import Skills from "../components/Sections/Skills";
 import Contact from "../components/Sections/Contact";
@@ -17,8 +18,9 @@ function Home() {
       {/* <Transition2 /> */}
       <Skills />
       {/* <Transition3 /> */}
-      <Portfolio />
       <Transition2 />
+      <Portfolio />
+      <Transition4 />
       <Contact />
     </>
   );

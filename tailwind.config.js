@@ -8,6 +8,7 @@ module.exports = {
         "inset-lg": "inset 2px 2px 6px rgba(55, 62, 85, 0.6)",
         "custom-light": "2px 3px 0px rgba(207, 211, 224, 1)",
         "light-button": "2px 2px 0px rgba(255, 255, 255, 0.4)",
+        "purple": "2px 3px 20px rgba(100, 113, 154, 0.5)",
       },
       backgroundImage: {
         reviewsbefore: "url('assets/harvestly-reviews-before.png')",

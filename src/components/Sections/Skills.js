@@ -61,7 +61,7 @@ import React from "react";
 function Skills() {
   return (
     <div className="bg-primary-500 mt-[-1px]">
-      <Container className="pt-[10px] pb-[100px] h-auto">
+      <Container className="pt-[10px] pb-[70px] h-auto">
         <div className="px-5">
               <h1 className="text-3xl md:text-5xl font-semibold text-primary-50  mb-5">
                 My Skillset
@@ -79,7 +79,7 @@ function Skills() {
               ))}
             </div> */}
 
-              <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 md:gap-4 text-center justify-between w-[100%] mt-5">
+              <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 md:gap-3 text-center justify-between w-[100%] mt-5">
                 {[
                   "Microsoft Excel",
                   "SQL",
@@ -94,7 +94,7 @@ function Skills() {
                 ].map((skill) => (
                   <div
                     key={skill}
-                    className="bg-gradient-to-br from-lavender-50 to-lavender-300 py-4 md:py-5 rounded-xl text-md md:text-xl text-lavender-800 font-semibold shadow text-shadow hover:scale-105 transform transition-transform duration-300"
+                    className="bg-gradient-to-br from-lavender-50 to-lavender-300 py-4 rounded-xl text-md md:text-xl text-lavender-800 font-semibold shadow text-shadow hover:scale-105 transform transition-transform duration-300"
                   >
                     {skill}
                   </div>
