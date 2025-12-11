@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9b7c684.css",
-    "main.js": "/static/js/main.3aed2d7b.js",
+    "main.css": "/static/css/main.562d2740.css",
+    "main.js": "/static/js/main.f4705865.js",
     "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
     "static/media/sli-login.png": "/static/media/sli-login.f3e4a9b4f82d25435c80.png",
     "static/media/sli-login-before.png": "/static/media/sli-login-before.9e3c51193f8b499ea73f.png",
@@ -9,7 +9,6 @@
     "static/media/sli.png": "/static/media/sli.016209c81b70d022b08b.png",
     "static/media/leansixsigma.png": "/static/media/leansixsigma.c727f86e3a3ce22b4100.png",
     "static/media/sli-before.png": "/static/media/sli-before.0a424fc04c6797657097.png",
-    "static/media/customerdev.png": "/static/media/customerdev.165a6f0ba5d76e1ba24a.png",
     "static/media/harvestly-home.png": "/static/media/harvestly-home.af33e06eb9d5a3802f76.png",
     "static/media/user-list.png": "/static/media/user-list.008547e1501489ec06cc.png",
     "static/media/tarot.png": "/static/media/tarot.015aeb451d0d41dd6bf8.png",
@@ -20,6 +19,7 @@
     "static/media/ponte-about.png": "/static/media/ponte-about.b049ccd8ced0d0f8a75b.png",
     "static/media/ponte-before.png": "/static/media/ponte-before.612b27507009d948d90f.png",
     "static/media/me.png": "/static/media/me.f31f69e11b8297353949.png",
+    "static/media/customerdev.png": "/static/media/customerdev.5640cbbf98ffd62b93fa.png",
     "static/media/drops.png": "/static/media/drops.ea1c7b39e49ddea0d934.png",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.3b2d52e657ce8dbb2792.png",
     "static/media/webimage.png": "/static/media/webimage.5a09dfdb13cbe3986f9a.png",
@@ -28,12 +28,12 @@
     "static/media/bluetransition1.png": "/static/media/bluetransition1.3b294827af15754fe8e6.png",
     "static/media/bluetransition2.png": "/static/media/bluetransition2.f4580fcf0f4535866696.png",
     "index.html": "/index.html",
-    "main.f9b7c684.css.map": "/static/css/main.f9b7c684.css.map",
-    "main.3aed2d7b.js.map": "/static/js/main.3aed2d7b.js.map",
+    "main.562d2740.css.map": "/static/css/main.562d2740.css.map",
+    "main.f4705865.js.map": "/static/js/main.f4705865.js.map",
     "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9b7c684.css",
-    "static/js/main.3aed2d7b.js"
+    "static/css/main.562d2740.css",
+    "static/js/main.f4705865.js"
   ]
 }
