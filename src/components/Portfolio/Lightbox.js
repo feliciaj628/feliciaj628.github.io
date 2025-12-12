@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Dialog } from "@mui/material";
+import { Dialog, IconButton } from "@mui/material";
 
-export default function Lightbox({ className, largeClass }) {
+export default function Lightbox({ className, pages = [] }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -25,11 +25,24 @@ export default function Lightbox({ className, largeClass }) {
           },
         }}
       >
-        <div
-          className={`${largeClass} w-[90vw] h-[90vh] bg-center bg-contain bg-no-repeat`}
-          onClick={() => setOpen(false)}
-        />
+        {/* SCROLL CONTAINER */}
+        <div className="w-[90vw] h-[90vh] overflow-y-scroll space-y-10 p-4">
 
+            <button
+                onClick={() => setOpen(false)}
+                className="absolute top-4 right-14 text-white text-6xl z-50"
+                >
+            ×
+            </button>
+
+
+          {pages.map((pageClass, i) => (
+            <div
+              key={i}
+              className={`${pageClass} w-full h-[70vh] bg-center bg-contain bg-no-repeat`}
+            />
+          ))}
+        </div>
       </Dialog>
     </>
   );

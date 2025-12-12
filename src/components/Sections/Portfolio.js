@@ -22,7 +22,7 @@ function Portfolio() {
                     </div>
                       <Lightbox
                         className="bg-lss bg-cover bg-center rounded-b-lg aspect-[15/10] w-full cursor-pointer transition duration-300 ease-in-out hover:brightness-90"
-                        largeClass="bg-lss"
+                        pages={["bg-lss"]}
                       />
                     </div>
                     <div className="shadow-purple rounded-lg">
@@ -33,7 +33,7 @@ function Portfolio() {
                     </div>
                       <Lightbox
                         className="bg-customerdev bg-cover bg-left rounded-b-lg aspect-[15/10] w-full cursor-pointer transition duration-300 ease-in-out hover:brightness-90"
-                        largeClass="bg-customerdev"
+                        pages={["bg-customerdev", "bg-customerdev"]}
                       />
                 </div>
               </div>
