@@ -33,7 +33,7 @@ function Portfolio() {
                     </div>
                       <Lightbox
                         className="bg-customerdev bg-cover bg-left rounded-b-lg aspect-[15/10] w-full cursor-pointer transition duration-300 ease-in-out hover:brightness-90"
-                        pages={["bg-customerdev", "bg-customerdev"]}
+                        pages={["bg-customerdev", "bg-customerdev2"]}
                       />
                 </div>
               </div>

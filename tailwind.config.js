@@ -29,6 +29,7 @@ module.exports = {
         drops: "url('assets/drops.png')",
         lss: "url('assets/leansixsigma.png')",
         customerdev: "url('assets/customerdev.png')",
+        customerdev2: "url('assets/customerdev2.png')",
         transition: "url('assets/bluetransition1.png')",
         transition1: "url('assets/bluetransition2.png')",
         transition2: "url('assets/bluetransition2.png')",
