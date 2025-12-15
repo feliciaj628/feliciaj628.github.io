@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.013a14c6.css",
-    "main.js": "/static/js/main.28236a23.js",
+    "main.css": "/static/css/main.f429dc32.css",
+    "main.js": "/static/js/main.c0c4a62b.js",
     "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
     "static/media/sli-login.png": "/static/media/sli-login.f3e4a9b4f82d25435c80.png",
     "static/media/sli-login-before.png": "/static/media/sli-login-before.9e3c51193f8b499ea73f.png",
@@ -19,7 +19,8 @@
     "static/media/ponte-about.png": "/static/media/ponte-about.b049ccd8ced0d0f8a75b.png",
     "static/media/ponte-before.png": "/static/media/ponte-before.612b27507009d948d90f.png",
     "static/media/me.png": "/static/media/me.f31f69e11b8297353949.png",
-    "static/media/customerdev.png": "/static/media/customerdev.5640cbbf98ffd62b93fa.png",
+    "static/media/customerdev2.png": "/static/media/customerdev2.b19a053e983b86dbcfa6.png",
+    "static/media/customerdev.png": "/static/media/customerdev.15b9dc5b8c0ea2a994b3.png",
     "static/media/drops.png": "/static/media/drops.ea1c7b39e49ddea0d934.png",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.3b2d52e657ce8dbb2792.png",
     "static/media/webimage.png": "/static/media/webimage.5a09dfdb13cbe3986f9a.png",
@@ -28,12 +29,12 @@
     "static/media/bluetransition1.png": "/static/media/bluetransition1.3b294827af15754fe8e6.png",
     "static/media/bluetransition2.png": "/static/media/bluetransition2.f4580fcf0f4535866696.png",
     "index.html": "/index.html",
-    "main.013a14c6.css.map": "/static/css/main.013a14c6.css.map",
-    "main.28236a23.js.map": "/static/js/main.28236a23.js.map",
+    "main.f429dc32.css.map": "/static/css/main.f429dc32.css.map",
+    "main.c0c4a62b.js.map": "/static/js/main.c0c4a62b.js.map",
     "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.013a14c6.css",
-    "static/js/main.28236a23.js"
+    "static/css/main.f429dc32.css",
+    "static/js/main.c0c4a62b.js"
   ]
 }
